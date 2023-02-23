@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="mycal.css" rel="stylesheet"> 
+      <script src="mycal.js"></script>   
+    <title> legendary calculator</title>
+</head>
+<body>
+    <div id="container">
+        <input type="text" value='0' id="input-field" pattern="[0-9]+[.]"><br>
+        <button type="button" onclick="mod()" class="operators" style="position: absolute;  left: 5px;  top: 170px; ">%</button>
+        <button type="button" onclick="cube()" class="operators" style="position: absolute;  left: 283px;  top: 170px;">x<sup>3</sup></button>
+        <button type="button" onclick="clr()" class="operators" style="position: absolute;  left: 561px;  top: 170px;">C</button>
+        <button type="button" onclick="tap()" class="operators" style="position: absolute;  left: 839px;  top: 170px;" ><img src="C:/Users/bhave/OneDrive/Desktop/backspace.jpg" style="height:55px; width:150px ;" ></button><br><br>
+        <button type="button" onclick="inv()" class="operators" style="position: absolute;  left: 5px;  top: 260px ;">1/x</button>
+        <button type="button" onclick="square()" class="operators" style=" position: absolute;  left: 283px;  top: 260px;">x<sup>2</sup></button>
+        <button type="button" onclick="sqrtm()" class="operators" style="position: absolute;  left: 561px;  top: 260px;">sqrt</button>
+        <button type="button" onclick="div()" class="operators" style="position: absolute;  left: 839px;  top: 260px;">/</button><br><br>
+        <button type="button" onclick="mul()" class="operators" style="position: absolute;  left: 839px;  top: 350px;">*</button>
+        <button type="button" onclick="sub()" class="operators"style="position: absolute;  left: 839px;  top: 440px;">-</button>
+        <button type="button" onclick="add()" class="operators"style="position: absolute;  left: 839px;  top: 530px;">+</button>
+        <button type="button" onclick="sum()" class="operators"style="background-color: #483D8B; position: absolute;  left: 839px;  top: 620px;">=</button>
+        <button type="button" onclick="dis('7')" class="operators numbers"style=" position: absolute;  left: 5px;  top: 350px; ">7</button>
+        <button type="button" onclick="dis('8')" class="operators numbers"style=" position: absolute;  left: 283px;  top: 350px;">8</button>
+        <button type="button" onclick="dis('9')" class="operators numbers"style="position: absolute;  left: 561px;  top: 350px;">9</button> 
+        <button type="button" onclick="dis('4')" class="operators numbers"style="position: absolute;  left: 5px;  top: 440px;">4</button>
+        <button type="button" onclick="dis('5')" class="operators numbers"style="position: absolute;  left: 283px;  top: 440px;">5</button>
+        <button type="button" onclick="dis('6')" class="operators numbers"style="position: absolute;  left: 561px;  top: 440px;">6</button>
+        <button type="button" onclick="dis('1')" class="operators numbers"style="position: absolute;  left: 5px;  top: 530px;">1</button>
+        <button type="button" onclick="dis('2')" class="operators numbers"style="position: absolute;  left: 283px;  top: 530px;">2</button>
+        <button type="button" onclick="dis('3')" class="operators numbers"style="position: absolute;  left: 561px;  top: 530px;">3</button>
+        <button type="button" onclick="dis('00')" class="operators numbers"style="position: absolute;  left: 5px;  top: 620px;">00</button>
+        <button type="button" onclick="dis('0')" class="operators numbers"style="position: absolute;  left: 283px;  top: 620px;">0</button>
+        <button type="button" onclick="dis('.')" class="operators numbers"style="position: absolute;  left: 561px;  top: 620px;">.</button>
+        
+    </div>
+    
+</body>
+</html>
